@@ -1,0 +1,48 @@
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: green;
+}
+
+.cabecalho {
+    background-color: #f2a900;
+    text-align: center;
+}
+
+.cabecalho p:first-child {
+    color: midnightblue;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.cabecalho p:nth-child(2) {
+    color: midnightblue;
+}
+
+.conteudo {
+    background-color: antiquewhite;
+    color: darkblue;
+}
+
+/**Desafio:*/
+
+.conteudo p {
+    color: #E4005A;
+    font-size: 42px;
+}
+
+/*Desafio 02*/
+
+.conteudo p:nth-child(4) {
+    color: purple;
+    vertical-align: sub;
+}
+
+/*Desafio 03*/
+
+@media (max-width: 480px) {
+    .container {
+        background-color: #ADD8E6;
+    }
+}
